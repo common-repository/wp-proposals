@@ -1,0 +1,77 @@
+/* Proposal Print Styling */
+@media print {
+.single-proposal .vc_row:first-of-type {
+    -webkit-print-color-adjust: exact;
+}
+.single-proposal .wpp-title-overlay {
+    -webkit-print-color-adjust: exact;
+}
+.single-proposal .wpp-collapse-terms-wrapper, .single-proposal .wpp-section.company-about {
+  display: none;
+}
+.single-proposal h1 {
+    font-size: 28px;
+    line-height: 28px;
+    -webkit-print-color-adjust: exact;
+}
+.single-proposal h2 {
+    font-size: 28px;
+    line-height: 28px;
+    -webkit-print-color-adjust: exact;
+}
+.single-proposal h3, .single-proposal h4 {
+    font-size: 16px;
+    line-height: 26px;
+    -webkit-print-color-adjust: exact;
+}
+.single-proposal .content_inner p, .elementor-text-editor.elementor-clearfix {
+    font-size: 12px!important;
+    -webkit-print-color-adjust: exact;
+}
+.single-proposal .more_facts_inner p {
+    font-size: 12px!important;
+    -webkit-print-color-adjust: exact;
+}
+.single-proposal .grid_section .section_inner {
+    width: 680px!important;
+    -webkit-print-color-adjust: exact;
+}
+.wpp-section-content .section_inner.clearfix, .wpp-section-content .elementor-section.elementor-section-boxed > .elementor-container {
+    width: 680px!important;
+    max-width: 680px!important;
+}
+.single-proposal .footer_bottom_holder, .single-proposal .quote {
+    display: none;
+}
+.single-proposal .gform_footer .gform_button {
+    text-align: center;
+    color: #ffffff;
+    border-color: #6556be;
+    background-color: #6556be;
+    font-family: 'Roboto', Arial;
+    font-size: 14px;
+    line-height: 50px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-border-radius: 4px;
+    text-transform: uppercase;
+    border-width: 0px;
+    padding-left: 55px;
+    padding-right: 55px;
+    letter-spacing: 1px;
+    box-shadow: 0 10px 15px rgba(0,0,0,.11);
+    width: 250px;
+}
+.single-proposal #back_to_top, .single-proposal .print-quote {
+    display: none;
+}
+.single-proposal .more_facts_holder {
+    display: none;
+}
+.qode-pricing-calculator-total-price-holder {
+    margin-top: 10%;
+    padding-top: 10%;
+    display: block;
+}
+}
